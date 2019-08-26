@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    width: 100%;
+    top: 0;
+    background-color: whitesmoke;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-left: 50%;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 5px;
+}

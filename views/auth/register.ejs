@@ -1,0 +1,31 @@
+<% include ../snippets/header.ejs %>
+
+    <h1>
+        Registerform
+    </h1>
+
+    <form action="/register" method="POST">
+        <div>
+            <label>
+                Username
+            </label>
+            <input type="text" name="username" placeholder="Enter your Username here ...">
+        </div>
+        <div>
+            <label>
+                Password
+            </label>
+        <input type="password" name="password" placeholder="Enter your Password here ...">
+        </div>
+        <div>
+            <button type="submit">
+                Submit
+            </button>
+        </div>
+    </form>
+    
+    <p>
+        Already have an account? <a href="/login">Login here!</a>
+    </p>
+
+<% include ../snippets/footer.ejs %>

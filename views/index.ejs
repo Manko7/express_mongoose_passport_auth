@@ -1,0 +1,14 @@
+<% include ./snippets/header.ejs %>
+
+<h1>
+    Hello
+    <% if(user) { %>
+        <%= user.username %>
+    <% } %>
+</h1>
+
+<p>
+    this page is only visible when you are logged in. 
+</p>
+
+<% include ./snippets/footer.ejs %>
